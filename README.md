@@ -10,7 +10,7 @@
 
 双击python-3.9.0.exe根据提示进行安装python环境
 
-####2.安装python依赖包
+#### 2.安装python依赖包
 
 ```
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple playsound
@@ -25,7 +25,7 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pyinstaller
 pyinstaller -F -w AutoRefresh.py --noconsole
 ```
 
-####4.chromedriver下载
+#### 4.chromedriver下载
 
 参考教程https://blog.csdn.net/lly1122334/article/details/106217320查看当前chrome版本号，根据版本号搜[谷歌浏览器驱动镜像](http://npm.taobao.org/mirrors/chromedriver/)，将下载的driver放到sup目录下。
 
@@ -33,7 +33,7 @@ pyinstaller -F -w AutoRefresh.py --noconsole
 
 若无chrome浏览器，双击90.0.4430.212_chrome_installer_32.exe进行安装
 
-###使用
+### 使用
 
 1.双击AutoRefresh.exe后，在网站地址框内输入网站地址后点击打开即可打开目标网站。
 
@@ -41,6 +41,5 @@ pyinstaller -F -w AutoRefresh.py --noconsole
 
 3.点击退出工具按钮即可退出工具。
 
+![Snipaste_2022-01-04_20-59-03](https://user-images.githubusercontent.com/97103228/148068223-afca4008-6125-4e0a-8e1c-2d464c834c8d.jpg)
 
-
-![Snipaste_2022-01-04_20-59-03](C:\Users\13212\Desktop\Snipaste_2022-01-04_20-59-03.jpg)
